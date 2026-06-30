@@ -1,33 +1,44 @@
-# newGolf
+# 2D MiniGolf Game
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+A physics-based 2D MiniGolf game developed using Java and LibGDX. The project simulates realistic ball movement, shot power, and hole detection mechanics while applying object-oriented programming principles and game-loop architecture.
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+## Features
 
-## Platforms
+* Physics-based golf ball movement
+* Directional aiming system
+* Hole detection and win condition
+* Collision handling
+* Object-oriented game architecture
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
+## Technologies Used
 
-## Gradle
+* Java
+* LibGDX
+* Object-Oriented Programming (OOP)
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+## Screenshots
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+### Gameplay
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+![Gameplay](screenshots/gameplay.png)
+
+### Winning Screen
+
+![Winning Screen](screenshots/win-screen.png)
+
+## Project Purpose
+
+This project was developed to strengthen my understanding of Java programming, game development concepts, object-oriented design, and the LibGDX framework. It also provided practical experience implementing game physics and event-driven interactions.
+
+## How to Run
+
+1. Clone the repository.
+2. Open the project in IntelliJ IDEA or another Java IDE.
+3. Import the Gradle project.
+4. Run the DesktopLauncher class.
+
+## Author
+
+Ifesanmi Oluwagbotemi Gabriel
+
+Software Engineering Student | Full-Stack Developer | Game Developer
